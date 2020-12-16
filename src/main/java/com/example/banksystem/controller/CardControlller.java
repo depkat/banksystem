@@ -72,7 +72,7 @@ public class CardControlller {
 
     @GetMapping("/withdraw1")
     public String withdraw1(){
-        return "withdraw";
+        return "card/withdraw";
     }
     @ResponseBody
     @PutMapping("/withdraw/{cardid}")
@@ -102,7 +102,7 @@ public class CardControlller {
 
     @GetMapping("/transation1")
     public String transation1(){
-        return "transation";
+        return "card/transation";
     }
 
     @ResponseBody
